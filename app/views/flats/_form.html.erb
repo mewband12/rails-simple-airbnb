@@ -1,0 +1,11 @@
+<div class ="col-sm-8 col-sm-offset-2 mx-auto">
+  <%= simple_form_for flat do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <%= f.input :price_per_night %>
+    <%= f.input :number_of_guests %>
+    <%= f.submit "Submit review", class: "btn btn-primary" %>
+  <% end %>
+</div>
+
